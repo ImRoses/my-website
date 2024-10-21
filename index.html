@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalp Butonu</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="heart-container">
+        <button class="heart-button" onclick="toggleHeart()">
+            <span class="heart-shape"></span>
+        </button>
+        <p class="like-counter"> <span id="likeCount">0</span></p>
+        <p id="kadoMessage" class="hidden">Kado</p> <!-- Kado mesajı için gizli paragraflar -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
